@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html,
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.active.categories {
+  background-color: #73b9fe;
+  color: black;
+  font-weight: 700;
+}
+
+.active.subcategories {
+  background-color: rgb(235, 181, 55);
+  font-weight: 700;
+  color: black;
+}
+
+input,
+textarea {
+  color: black;
+}
